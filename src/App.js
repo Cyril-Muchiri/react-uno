@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Welcome  from './components/Welcome';
 
 function App() {
   return (
     <div className="App">
-     <h1>Hello this is my first app</h1>
+     <Welcome />
     </div>
   );
 }
