@@ -1,4 +1,3 @@
-const Welcome = () =>  <h1> This is a test welcome func </h1>
-
+const Welcome = (props) =>  <h1> Welcome {props.name} </h1>
 
 export default Welcome
