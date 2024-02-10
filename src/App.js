@@ -4,6 +4,7 @@ import Welcome  from './components/Welcome';
 import Greetings from './components/Greetings';
 import Student from './components/Student';
 import Employee from  './components/Employee';
+import User from './components/User';
 
 function App() {
   return (
@@ -19,7 +20,9 @@ firstName= "Johnteh"
      email="kim@test.com" /> */}
 
 
-     <Employee/>
+     {/* <Employee/> */}
+
+     <User></User>
      
 
     </div>
