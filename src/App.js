@@ -6,6 +6,7 @@ import Student from './components/Student';
 import Employee from  './components/Employee';
 import User from './components/User';
 import Events from './components/Events';
+import Conditional from './components/ConditionalRnd';
 
 function App() {
   return (
@@ -26,8 +27,9 @@ firstName= "Johnteh"
      <User></User> */}
 
      
-     <Events></Events>
-
+     {/* <Events></Events> */}
+     
+<Conditional></Conditional>
     </div>
   );
 }
