@@ -5,6 +5,7 @@ import Greetings from './components/Greetings';
 import Student from './components/Student';
 import Employee from  './components/Employee';
 import User from './components/User';
+import Events from './components/Events';
 
 function App() {
   return (
@@ -21,9 +22,11 @@ firstName= "Johnteh"
 
 
      {/* <Employee/> */}
+{/* 
+     <User></User> */}
 
-     <User></User>
      
+     <Events></Events>
 
     </div>
   );
