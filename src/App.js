@@ -3,6 +3,7 @@ import './App.css';
 import Welcome  from './components/Welcome';
 import Greetings from './components/Greetings';
 import Student from './components/Student';
+import Employee from  './components/Employee';
 
 function App() {
   return (
@@ -12,10 +13,14 @@ function App() {
      <Welcome name="Muchiri" /> */}
 
 {/* <Greetings  name = "Mary" /> */}
-<Student
+{/* <Student
 firstName= "Johnteh"
      lastName="Kimaiyu"
-     email="kim@test.com" />
+     email="kim@test.com" /> */}
+
+
+     <Employee/>
+     
 
     </div>
   );
